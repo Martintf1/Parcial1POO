@@ -148,6 +148,8 @@ public class NewMain {
         
         objPersona = new Persona(IdPersona, NombrePersona, Apellido, objProducto);
         
+        Helpers.HelperImpresion.ImprimirPersona(objPersona);
+        
     }
     
 }
